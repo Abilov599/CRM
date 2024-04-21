@@ -1,3 +1,3 @@
 <template>
-  <AppAlert>Home</AppAlert>
+  <h1>Home</h1>
 </template>
