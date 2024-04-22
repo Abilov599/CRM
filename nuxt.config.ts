@@ -2,5 +2,14 @@
 export default defineNuxtConfig({
   srcDir: "src",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint", "@nuxt/image"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/eslint",
+    "@nuxt/image",
+    "shadcn-nuxt",
+  ],
+  shadcn: {
+    prefix: "",
+    componentDir: "./src/components/ui",
+  },
 });
